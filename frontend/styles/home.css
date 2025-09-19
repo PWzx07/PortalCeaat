@@ -118,3 +118,25 @@ span{
 #saibaMais:hover{
     background-color: var(--FonteHover);
 }
+
+#dados{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.dataCard{
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 5px;
+}
+
+.dataText{
+    color: var(--FonteGeral);
+}

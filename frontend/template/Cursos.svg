@@ -1,0 +1,199 @@
+<svg width="1200" height="3000" xmlns="http://www.w3.org/2000/svg" style="background-color: #f8fafc; font-family: 'Segoe UI', system-ui, sans-serif;">
+    <!-- Cabeçalho -->
+    <rect x="0" y="0" width="1200" height="80" fill="#ffffff" />
+    <line x1="0" y1="80" x2="1200" y2="80" stroke="#e2e8f0" stroke-width="2" />
+    
+    <text x="40" y="45" fill="#1e293b" font-size="20" font-weight="600">Escola Diferente</text>
+    
+    <!-- Menu de Navegação -->
+    <g fill="#64748b" font-size="14" font-weight="500">
+        <text x="900" y="45">Início</text>
+        <text x="960" y="45">Histórico</text>
+        <text x="1030" y="45">Cursos</text>
+        <text x="1085" y="45">Contato</text>
+    </g>
+    
+    <!-- Caminho de Navegação (Breadcrumb) -->
+    <g fill="#64748b" font-size="14">
+        <text x="40" y="120">Início</text>
+        <text x="85" y="120">›</text>
+        <text x="100" y="120">Cursos</text>
+        <text x="155" y="120">›</text>
+        <text x="170" y="120" fill="#3b82f6" font-weight="600">Ensino Médio Regular</text>
+    </g>
+    
+    <!-- Cabeçalho do Curso -->
+    <rect x="40" y="150" width="1120" height="200" fill="url(#gradient)" rx="8" />
+    
+    <text x="600" y="200" text-anchor="middle" fill="#ffffff" font-size="32" font-weight="700">Ensino Médio Regular</text>
+    <text x="600" y="235" text-anchor="middle" fill="#e2e8f0" font-size="18">Formação completa com preparação para vestibulares e ENEM</text>
+    
+    <rect x="500" y="265" width="200" height="50" fill="#ffffff" rx="25" />
+    <text x="600" y="295" text-anchor="middle" fill="#3b82f6" font-size="16" font-weight="600">Fale Conosco</text>
+    
+    <!-- Menu de Navegação Interna -->
+    <rect x="40" y="380" width="1120" height="60" fill="#ffffff" rx="8" />
+    <g fill="#64748b" font-size="14" font-weight="500" text-anchor="middle">
+        <text x="120" y="415">Sobre o Curso</text>
+        <text x="280" y="415">Grade Curricular</text>
+        <text x="440" y="415">Professores</text>
+        <text x="600" y="415">Infraestrutura</text>
+        <text x="760" y="415">Depoimentos</text>
+        <text x="920" y="415">Resultados</text>
+        <text x="1080" y="415">FAQ</text>
+    </g>
+    
+    <!-- Conteúdo: Sobre o Curso -->
+    <rect x="40" y="460" width="1120" height="300" fill="#ffffff" rx="8" />
+    <text x="60" y="490" fill="#1e293b" font-size="24" font-weight="700">Sobre o Curso</text>
+    
+    <text x="60" y="520" fill="#64748b" font-size="14" width="500">
+        O Ensino Médio Regular da Escola Diferente oferece uma formação completa
+        </text>
+        <text x="60" y="540" fill="#64748b" font-size="14" width="500">
+        e aprofundada, preparando os alunos para os principais vestibulares e para 
+        o
+        </text>
+        <text x="60" y="560" fill="#64748b" font-size="14" width="500">
+          ENEM. Nossa metodologia combina conhecimentos teóricos sólidos com
+          </text>
+          <text x="60" y="580" fill="#64748b" font-size="14" width="500">
+        aplicações práticas, desenvolvendo não apenas competências acadêmicas,
+      </text>
+      <text x="60" y="600" fill="#64748b" font-size="14" width="500">
+        mas também habilidades socioemocionais essenciais para o século XXI.
+    </text>
+    
+    <!-- Lista de Diferenciais -->
+    <g font-size="14">
+        <text x="650" y="520" fill="#1e293b" font-weight="600">Diferenciais do Curso:</text>
+        
+        <circle cx="630" cy="550" r="5" fill="#22c55e" />
+        <text x="645" y="555" fill="#475569">Preparação intensiva para vestibulares</text>
+        
+        <circle cx="630" cy="580" r="5" fill="#22c55e" />
+        <text x="645" y="585" fill="#475569">Simulados regulares no formato ENEM</text>
+        
+        <circle cx="630" cy="610" r="5" fill="#22c55e" />
+        <text x="645" y="615" fill="#475569">Orientação profissional e vocacional</text>
+        
+        <circle cx="630" cy="640" r="5" fill="#22c55e" />
+        <text x="645" y="645" fill="#475569">Projetos interdisciplinares</text>
+        
+        <circle cx="630" cy="670" r="5" fill="#22c55e" />
+        <text x="645" y="675" fill="#475569">Aulas de revisão e plantão de dúvidas</text>
+        
+        <circle cx="630" cy="700" r="5" fill="#22c55e" />
+        <text x="645" y="705" fill="#475569">Acompanhamento individualizado</text>
+    </g>
+    
+    <!-- Grade Curricular -->
+    <rect x="40" y="790" width="1120" height="410" fill="#ffffff" rx="8" />
+    <text x="60" y="820" fill="#1e293b" font-size="24" font-weight="700">Grade Curricular</text>
+    
+    <!-- 1º Ano -->
+    <rect x="60" y="850" width="320" height="300" fill="#f8fafc" rx="8" />
+    <text x="220" y="875" text-anchor="middle" fill="#3b82f6" font-size="16" font-weight="600">1º Ano</text>
+    <g font-size="13" fill="#475569">
+        <text x="80" y="905">• Língua Portuguesa e Literatura</text>
+        <text x="80" y="925">• Matemática</text>
+        <text x="80" y="945">• História</text>
+        <text x="80" y="965">• Geografia</text>
+        <text x="80" y="985">• Física</text>
+        <text x="80" y="1005">• Química</text>
+        <text x="80" y="1025">• Biologia</text>
+        <text x="80" y="1045">• Língua Estrangeira (Inglês)</text>
+        <text x="80" y="1065">• Educação Física</text>
+        <text x="80" y="1085">• Artes</text>
+    </g>
+    
+    <!-- 2º Ano -->
+    <rect x="400" y="850" width="320" height="300" fill="#f8fafc" rx="8" />
+    <text x="560" y="875" text-anchor="middle" fill="#3b82f6" font-size="16" font-weight="600">2º Ano</text>
+    <g font-size="13" fill="#475569">
+        <text x="420" y="905">• Língua Portuguesa e Literatura</text>
+        <text x="420" y="925">• Matemática</text>
+        <text x="420" y="945">• História</text>
+        <text x="420" y="965">• Geografia</text>
+        <text x="420" y="985">• Física</text>
+        <text x="420" y="1005">• Química</text>
+        <text x="420" y="1025">• Biologia</text>
+        <text x="420" y="1045">• Filosofia</text>
+        <text x="420" y="1065">• Sociologia</text>
+        <text x="420" y="1085">• Projeto Interdisciplinar</text>
+    </g>
+    
+    <!-- 3º Ano -->
+    <rect x="740" y="850" width="320" height="300" fill="#f8fafc" rx="8" />
+    <text x="900" y="875" text-anchor="middle" fill="#3b82f6" font-size="16" font-weight="600">3º Ano</text>
+    <g font-size="13" fill="#475569">
+        <text x="760" y="905">• Língua Portuguesa e Redação</text>
+        <text x="760" y="925">• Matemática e Raciocínio Lógico</text>
+        <text x="760" y="945">• História e Atualidades</text>
+        <text x="760" y="965">• Geografia e Geopolítica</text>
+        <text x="760" y="985">• Física Aplicada</text>
+        <text x="760" y="1005">• Química Aplicada</text>
+        <text x="760" y="1025">• Biologia e Meio Ambiente</text>
+        <text x="760" y="1045">• Intensivo ENEM e Vestibulares</text>
+        <text x="760" y="1065">• Orientação Profissional</text>
+        <text x="760" y="1085">• Projeto de Vida</text>
+    </g>
+    
+    <!-- Professores -->
+    <rect x="40" y="1240" width="1120" height="400" fill="#ffffff" rx="8" />
+    <text x="60" y="1275" fill="#1e293b" font-size="24" font-weight="700">Corpo Docente</text>
+    
+    <g text-anchor="middle">
+        <circle cx="170" cy="1420" r="50" fill="#e2e8f0" />
+        <text x="170" y="1480" fill="#1e293b" font-weight="600">Prof. Ana Silva</text>
+        <text x="170" y="1500" fill="#64748b" font-size="12">Matemática</text>
+        
+        <circle cx="370" cy="1420" r="50" fill="#e2e8f0" />
+        <text x="370" y="1480" fill="#1e293b" font-weight="600">Prof. Carlos Lima</text>
+        <text x="370" y="1500" fill="#64748b" font-size="12">Língua Portuguesa</text>
+        
+        <circle cx="570" cy="1420" r="50" fill="#e2e8f0" />
+        <text x="570" y="1480" fill="#1e293b" font-weight="600">Prof. Mariana Santos</text>
+        <text x="570" y="1500" fill="#64748b" font-size="12">História</text>
+        
+        <circle cx="770" cy="1420" r="50" fill="#e2e8f0" />
+        <text x="770" y="1480" fill="#1e293b" font-weight="600">Prof. Rodrigo Alves</text>
+        <text x="770" y="1500" fill="#64748b" font-size="12">Física</text>
+        
+        <circle cx="970" cy="1420" r="50" fill="#e2e8f0" />
+        <text x="970" y="1480" fill="#1e293b" font-weight="600">Prof. Juliana Costa</text>
+        <text x="970" y="1500" fill="#64748b" font-size="12">Química</text>
+    </g>
+    
+    <rect x="500" y="1540" width="200" height="50" fill="#f1f5f9" rx="25" />
+    <text x="600" y="1570" text-anchor="middle" fill="#3b82f6" font-size="14" font-weight="600">Ver Todos</text>
+    
+    <!-- Call to Action -->
+    <rect x="40" y="1760" width="1120" height="200" fill="#1e293b" rx="8" />
+    <text x="600" y="1800" text-anchor="middle" fill="#ffffff" font-size="24" font-weight="700">Pronto para fazer parte da nossa escola?</text>
+    <text x="600" y="1830" text-anchor="middle" fill="#cbd5e1" font-size="16">Junte-se a centenas de alunos que já escolheram nossa instituição</text>
+    
+    <rect x="500" y="1860" width="200" height="50" fill="#3b82f6" rx="25" />
+    <text x="600" y="1890" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Faça sua Pré-matrícula</text>
+    
+    <!-- Rodapé -->
+    <rect x="0" y="2010" width="1200" height="120" fill="#1e293b" />
+    
+    <g fill="#cbd5e1" font-size="12">
+        <text x="600" y="2030" text-anchor="middle" font-weight="600">Escola Diferente - Uma escola diferente</text>
+        <text x="600" y="2050" text-anchor="middle">Av. Principal, 1234 - Bairro Educacional - Cidade - Estado</text>
+        <text x="600" y="2070" text-anchor="middle">Telefone: (11) 3456-7890 | E-mail: contato@escoladiferente.com.br</text>
+        
+        <line x1="400" y1="2080" x2="800" y2="2080" stroke="#475569" />
+        
+        <text x="600" y="2090" text-anchor="middle">© 2025 Escola Diferente. Todos os direitos reservados.</text>
+    </g>
+    
+    <!-- Gradientes (definições) -->
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#3b82f6" />
+            <stop offset="100%" stop-color="#1d4ed8" />
+        </linearGradient>
+    </defs>
+</svg>

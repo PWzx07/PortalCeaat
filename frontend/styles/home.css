@@ -229,3 +229,65 @@ h2{
     #cursos { grid-template-columns: repeat(3, 1fr); gap: 32px; }
     .fotoGrid { grid-template-columns: repeat(3, 1fr); }
 }
+
+#verMais{
+    background-color: #007bff;
+    border: none;
+    border-radius: 2rem;
+    width: 200px;
+    height: 2rem;
+    color: #fff;
+}
+
+#verMais:hover{
+    background-color: #555;
+}
+
+#fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.projetoCard{
+    background-color: greenyellow;
+    padding: 5rem;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.textProjeto{
+    font-size: 18px;
+}
+
+#sugestaoBox{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+textarea{
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+#sugestaoBtn{
+    background-color: #007bff;
+    border: none;
+    border-radius: 2rem;
+    width: 200px;
+    height: 2rem;
+    margin-left: 40%;
+}

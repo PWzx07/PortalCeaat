@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@prisma/client": "^6.16.2",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0"
+  },
+  "name": "logapi",
+  "version": "0.1",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js --ignore src/logs/**",
+    "start": "node app.js",
+    "prisma:migrate": "prisma migrate dev --schema=./prisma/schema.prisma",
+    "prisma:generate": "prisma generate --schema=./prisma/schema.prisma"
+  },
+  "keywords": [],
+  "author": "Pedro W.",
+  "license": "ISC",
+  "description": "API - LOG IN/OUT",
+  "devDependencies": {
+    "prisma": "^6.16.2"
+  }
+}

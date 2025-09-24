@@ -16,6 +16,6 @@ app.listen(PORT, ()=>{
     logEvents(`Rodando na porta http://localhost:${PORT}`,`listen.log`);
 });
 
-app.use("/", userRouter);
+app.use("/user", userRouter);
 
 export default app;

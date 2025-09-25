@@ -7,7 +7,7 @@ const galeria = document.getElementById("galeria");
 
 function trocarImagem() {
   galeria.style.backgroundImage = `url(${fotos[index]})`;
-  index = (index + 1) % imagens.length;
+  index = (index + 1) % fotos.length;
 }
 
 trocarImagem();

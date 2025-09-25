@@ -285,9 +285,14 @@ textarea{
 
 #sugestaoBtn{
     background-color: #007bff;
+    color: #fff;
     border: none;
     border-radius: 2rem;
     width: 200px;
     height: 2rem;
     margin-left: 40%;
+}
+
+#sugestaoBtn:hover{
+    background-color: #555;
 }

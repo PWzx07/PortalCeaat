@@ -1,4 +1,4 @@
-import { getUser, filterUser, createUser, updateUser, deleteUser } from "../service/user.service.js";
+import { getUser, filterUser, createUser, updateUser, deleteUser, loginUser } from "../service/user.service.js";
 
 class UserController {
     // READ - GET
@@ -105,6 +105,31 @@ class UserController {
             UsuarioDeletado: delUsuario
         });
     }
+
+      // LOGIN
+  async loginUserController(req, res) {
+    const { email, senha } = req.body;
+
+    if (!email || !senha) {
+      return res.status(400).json({ mensagem: "Email e senha são obrigatórios" });
+    }
+
+    try {
+      const result = await loginUser(email, senha);
+      if (!result) {
+        return res.status(401).json({ mensagem: "Credenciais inválidas" });
+      }
+
+      res.status(200).json({
+        mensagem: "Login realizado com sucesso",
+        token: result.token,
+        usuario: { id: result.user.id, email: result.user.email, nome: result.user.nome }
+      });
+    } catch (error) {
+      console.error("Erro no login:", error);
+      res.status(500).json({ mensagem: "Erro no login" });
+    }
+  }
 };
 
 export default new UserController();

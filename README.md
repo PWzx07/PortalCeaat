@@ -1,5 +1,7 @@
 # PortalCeaat
 
+![License](https://img.shields.io/badge/license-NCOSL--v1.0-blue)
+
 ## 📌 Sobre o Projeto
 O **PortalCeaat** é uma aplicação **Full-Stack**, composta por um **front-end em HTML e CSS** e um **back-end desenvolvido em Node.js com Express e Prisma ORM**, utilizando **SQLite** como banco de dados.  
 O sistema implementa um CRUD completo de usuários com **autenticação JWT** para controle de acesso, garantindo maior segurança no gerenciamento de contas. Além disso, oferece uma **interface de fácil navegação** e uma **experiência de usuário aprimorada**.

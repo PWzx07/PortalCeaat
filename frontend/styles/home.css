@@ -13,6 +13,7 @@ body{
 header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 ul{
@@ -23,7 +24,7 @@ ul{
 }
 
 li, a{
-    padding: 20% 0 0 20%;
+    padding: 45px 25px 35px 10px;
     list-style: none;
     text-decoration: none;
     color: var(--FonteGeral);
@@ -36,7 +37,7 @@ a:hover{
 
 #logo{
     width: 120px;
-    margin-right: 53rem;
+    /* margin-right: 53rem; */
 }
 
 hr{
@@ -116,13 +117,11 @@ h2{
 #dados{
     display: flex;
     flex-direction: row;
-    margin-left: 10rem;
-    margin-top: 2rem;
-    gap: 2rem;
 }
 
 .dataCard{
-    padding: 7rem;
+    width: 20rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -253,6 +252,7 @@ h2{
 
 #projetos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 1rem;
     padding: 2rem;
@@ -290,7 +290,7 @@ textarea{
     border-radius: 2rem;
     width: 200px;
     height: 2rem;
-    margin-left: 40%;
+    align-self: center;
 }
 
 #sugestaoBtn:hover{

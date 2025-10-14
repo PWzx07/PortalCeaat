@@ -2,8 +2,8 @@
   --TelaDeFundo: #e8ffee;
   --FonteGeral: #1c1c1b;
   --FonteHover: rgb(39, 39,93);
-  --VerdeC: #1d943f;
-  --VerdeE: #106d2a;
+  --VerdeE: #1d943f;
+  --VerdeC: #0b401a;
 }
 
 body{
@@ -58,7 +58,7 @@ hr{
     border: none;
     text-align: center;
     margin-top: 10px;
-    padding: 2%;
+    padding: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,75 +69,24 @@ hr{
     transition: background-image 1s ease-in-out;
 }
 
-#Escola{
-  position: relative;
-  top: 20px;
-  right: 50px;
+#nossa{
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-text-shadow: 2px 2px 0 rgb(159,159,159);
-}
-
-#Diferente{
-  position: relative;
-  left: 40px;
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #0b401a;
-  text-shadow: 2px 2px 0 rgb(159,159,159);
-}
-
-#Slogan{
-  font-size: 0.7rem;
 }
 
 #caixa-superior{
   background-color: var(--VerdeC);
-  width: 220px;
+  width: 280px;
   position: relative;
-  top: 50px;
-  left: 150px;
+  bottom: 40px;
   text-align: center;
   padding: 20px;
   padding-top: 25px;
   padding-bottom: 50px;
   border-radius: 3px;
   color: white;
-}
-
-h2 {
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  position: relative;
-  bottom: 15px;
-}
-
-#Anisio{
-  padding: 3px;
-  border-radius: 5px;
-  background-color: white;
-  position: relative;
-  z-index: 1;
-  bottom: 300px;
-  left: 15px;
-  width: 150px;
-}
-
-#caixa-inferior{
-  background-color: var(--VerdeE);
-  width: 220px;
-  position: relative;
-  z-index: 2;
-  bottom: 120px;
-  left: 50px;
-  padding: 20px;
-  border-radius: 3px;
-  text-align: center;
-  color: white;
-  padding-bottom: 20px;
+  margin: auto;
 }
 
 #VmV{
@@ -154,23 +103,40 @@ h2 {
   padding-top: 25px;
 }
 
-#ApL {
-  display: flex;
-  gap: 10px;
-  text-align: center;
-  margin: 50px auto;
+#ApL{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 colunas */
+  grid-template-rows: 1fr 1fr;    /* 2 linhas */
+  gap: 1px; /* Espaço entre as imagens */
+  width: 100%;
+  max-width: 360px; /* Ajuste conforme necessário */
+  margin: auto;
 }
 
 .aPl {
-  flex: 1;
-  border-radius: 10px;
-  padding: 10px;
-  text-shadow: 2px 2px 0 rgb(159,159,159);
-  box-shadow: 2px 2px 0 rgb(159,159,159);
+  width: 95%;
+  height: 100px; /* Ajuste a altura conforme necessário */
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h3 {
-   margin: 3px 0px 3px;
+.Texto {
+  border: solid black;
+  text-align: center;
+   position: relative;
+   bottom: 10px;
+   padding: 10;
+   padding-bottom: 40%;
+   background: #ffffff;
+   width: 95%;
+   height: 45.5%;
+   font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
  }
  
 /*MAPA*/

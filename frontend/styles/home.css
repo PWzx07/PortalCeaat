@@ -26,10 +26,12 @@ ul{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 li, a{
-    padding: 20px 5px 5px 10px;
+    padding-top: 10px;
     list-style: none;
     text-decoration: none;
     color: var(--FonteGeral)
@@ -142,6 +144,7 @@ h2 {
 
 #VmV{
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
 }
 
@@ -183,15 +186,15 @@ h3 {
 }
 
 .eetih {
-  font-size: 10%;
+  font-size: 0.9rem;
   position: relative;
-  left: 10%;
+  left: 3%;
   margin: 7px auto 7px;
 }
 
 .IconEETIH {
-  width: 40px;
+  width: 38px;
   position: absolute;
-  margin-left: 100%;
-  margin-bottom: 20px;
+  left: 350px;
+  bottom: 15px;
 }

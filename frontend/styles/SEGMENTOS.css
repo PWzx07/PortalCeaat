@@ -18,7 +18,7 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 0.5rem;
 }
 
 ul{
@@ -26,10 +26,11 @@ ul{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 li, a{
-    padding: 20px 5px 5px 10px;
     list-style: none;
     text-decoration: none;
     color: var(--FonteGeral)
@@ -149,15 +150,19 @@ hr{
 }
 
 .eetih {
-  font-size: 10%;
+  font-size: 1rem;
   position: relative;
-  left: 10%;
-  margin: 7px auto 7px;
+  left: 3%;
 }
 
 .IconEETIH {
   width: 40px;
   position: absolute;
-  margin-left: 100%;
-  margin-bottom: 20px;
+  left: 320px;
+  bottom: 20px;
+}
+
+.linkPage{
+  font-size: 20px;
+  text-align: center;
 }

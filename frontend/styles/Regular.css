@@ -198,3 +198,11 @@ hr{
   left: 390px;
   bottom: 20px;
 }
+
+#imagem1{
+    padding: 40px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 30.5%;
+    height: 35rem;
+}

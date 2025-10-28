@@ -98,7 +98,7 @@ hr{
 .vMv {
   flex: 1;
   text-align: center;
-  border: 2px solid var(--FonteGeral);
+  border: 2px solid var(--FonteGeral); 
   margin: 0px 2px 0px;
   padding: 10px;
   padding-top: 25px;

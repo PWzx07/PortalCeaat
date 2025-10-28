@@ -97,10 +97,10 @@ text-shadow: 2px 2px 0 rgb(159,159,159);
 
 #caixa-superior{
   background-color: var(--VerdeC);
-  width: 220px;
+  width: 300px;
   position: relative;
   top: 50px;
-  left: 150px;
+  left: 900px;
   text-align: center;
   padding: 20px;
   padding-top: 25px;
@@ -123,18 +123,18 @@ h2 {
   background-color: white;
   position: relative;
   z-index: 1;
-  bottom: 300px;
-  left: 15px;
-  width: 150px;
+  bottom: 250px;
+  left: 730px;
+  width: 190px;
 }
 
 #caixa-inferior{
   background-color: var(--VerdeE);
-  width: 220px;
+  width: 300px;
   position: relative;
   z-index: 2;
-  bottom: 120px;
-  left: 50px;
+  bottom: 170px;
+  left: 740px;
   padding: 20px;
   border-radius: 3px;
   text-align: center;
@@ -149,9 +149,10 @@ h2 {
 }
 
 .vMv {
+  color: #0b401a;
   flex: 1;
-  text-align: center;
-  border: 2px solid var(--FonteGeral);
+  text-align: center; 
+  border: 2px solid #0b401a ;
   margin: 0px 2px 0px;
   padding: 10px;
   padding-top: 25px;
@@ -197,4 +198,47 @@ h3 {
   position: absolute;
   left: 350px;
   bottom: 15px;
+}
+
+#localização {
+  left: 1700px;
+  bottom: 10px;
+}
+
+#emailpng {
+  left: 1700px;
+  bottom: 10px;
+}
+
+#Telefone {
+  left: 1700px;
+  bottom: 10px;
+}
+
+#instagram {
+  left: 1700px;
+  bottom: 10px;
+}
+
+#relogiopng {
+  left: 1700px;
+  bottom: 10px;
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    background: #ee0606;
+  }
+}
+
+#paragrafo1 {
+  color:#000000
+}
+
+#paragrafo2 {
+  color:#000000
+}
+
+#paragrafo3 {
+  color:#000000
 }

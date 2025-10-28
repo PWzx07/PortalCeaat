@@ -10,11 +10,11 @@ body{
     background-color: var(--TelaDeFundo);
     color: var(--FonteGeral);
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  max-width: 100%;
-  overflow-x: hidden;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header{
